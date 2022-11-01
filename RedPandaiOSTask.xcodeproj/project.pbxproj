@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8102D452911A8C6003B0181 /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8102D442911A8C6003B0181 /* ProductsViewModel.swift */; };
+		A8102D492911A974003B0181 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8102D482911A974003B0181 /* FirebaseManager.swift */; };
+		A8102D4F2911AB3A003B0181 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8102D4E2911AB3A003B0181 /* AppConstants.swift */; };
+		A8102D512911AD3A003B0181 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8102D502911AD3A003B0181 /* Observable.swift */; };
+		A8102D532911B0F3003B0181 /* ProductsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8102D522911B0F3003B0181 /* ProductsData.swift */; };
+		A8102D582911B22C003B0181 /* ProductsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8102D572911B22C003B0181 /* ProductsTableViewCell.swift */; };
+		A8B55B57290A928C00BD4214 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B55B56290A928C00BD4214 /* AppDelegate.swift */; };
+		A8B55B59290A928C00BD4214 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B55B58290A928C00BD4214 /* SceneDelegate.swift */; };
+		A8B55B5B290A928C00BD4214 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B55B5A290A928C00BD4214 /* ProductsViewController.swift */; };
+		A8B55B5E290A928C00BD4214 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8B55B5C290A928C00BD4214 /* Main.storyboard */; };
+		A8B55B60290A928E00BD4214 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8B55B5F290A928E00BD4214 /* Assets.xcassets */; };
+		A8B55B63290A928E00BD4214 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8B55B61290A928E00BD4214 /* LaunchScreen.storyboard */; };
+		A8B55B6B290A932200BD4214 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8B55B6A290A932200BD4214 /* GoogleService-Info.plist */; };
+		A8B55B6D290A934C00BD4214 /* google-services.json in Resources */ = {isa = PBXBuildFile; fileRef = A8B55B6C290A934C00BD4214 /* google-services.json */; };
+		CBC7DF042D7612F4DDFC5EA1 /* Pods_RedPandaiOSTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91E4681C1D0DC612D7B5FF6 /* Pods_RedPandaiOSTask.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49B2FC7C327CF99C797F2894 /* Pods-RedPandaiOSTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedPandaiOSTask.debug.xcconfig"; path = "Target Support Files/Pods-RedPandaiOSTask/Pods-RedPandaiOSTask.debug.xcconfig"; sourceTree = "<group>"; };
+		61188520C885287AFA2B6F5B /* Pods-RedPandaiOSTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedPandaiOSTask.release.xcconfig"; path = "Target Support Files/Pods-RedPandaiOSTask/Pods-RedPandaiOSTask.release.xcconfig"; sourceTree = "<group>"; };
+		A8102D442911A8C6003B0181 /* ProductsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewModel.swift; sourceTree = "<group>"; };
+		A8102D482911A974003B0181 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		A8102D4E2911AB3A003B0181 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		A8102D502911AD3A003B0181 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		A8102D522911B0F3003B0181 /* ProductsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsData.swift; sourceTree = "<group>"; };
+		A8102D572911B22C003B0181 /* ProductsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewCell.swift; sourceTree = "<group>"; };
+		A8B55B53290A928C00BD4214 /* RedPandaiOSTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedPandaiOSTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8B55B56290A928C00BD4214 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8B55B58290A928C00BD4214 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A8B55B5A290A928C00BD4214 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		A8B55B5D290A928C00BD4214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8B55B5F290A928E00BD4214 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8B55B62290A928E00BD4214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8B55B64290A928E00BD4214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8B55B6A290A932200BD4214 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A8B55B6C290A934C00BD4214 /* google-services.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "google-services.json"; sourceTree = "<group>"; };
+		F91E4681C1D0DC612D7B5FF6 /* Pods_RedPandaiOSTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedPandaiOSTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8B55B50290A928C00BD4214 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBC7DF042D7612F4DDFC5EA1 /* Pods_RedPandaiOSTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4890FB1C3F07FDFC2A17AE85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F91E4681C1D0DC612D7B5FF6 /* Pods_RedPandaiOSTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80AC96D410332B1AA05C9BDF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49B2FC7C327CF99C797F2894 /* Pods-RedPandaiOSTask.debug.xcconfig */,
+				61188520C885287AFA2B6F5B /* Pods-RedPandaiOSTask.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A8102D3F2911A882003B0181 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A8102D402911A88D003B0181 /* Products */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		A8102D402911A88D003B0181 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8102D412911A898003B0181 /* Model */,
+				A8102D422911A89F003B0181 /* ViewModel */,
+				A8102D432911A8AE003B0181 /* View */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		A8102D412911A898003B0181 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A8102D522911B0F3003B0181 /* ProductsData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A8102D422911A89F003B0181 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A8102D442911A8C6003B0181 /* ProductsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A8102D432911A8AE003B0181 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A8102D542911B1E7003B0181 /* Cell */,
+				A8B55B5A290A928C00BD4214 /* ProductsViewController.swift */,
+				A8B55B5C290A928C00BD4214 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A8102D462911A923003B0181 /* FirebaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				A8102D482911A974003B0181 /* FirebaseManager.swift */,
+			);
+			path = FirebaseManager;
+			sourceTree = "<group>";
+		};
+		A8102D472911A950003B0181 /* App Lifecycle */ = {
+			isa = PBXGroup;
+			children = (
+				A8B55B58290A928C00BD4214 /* SceneDelegate.swift */,
+				A8B55B56290A928C00BD4214 /* AppDelegate.swift */,
+			);
+			path = "App Lifecycle";
+			sourceTree = "<group>";
+		};
+		A8102D4D2911AB24003B0181 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				A8102D4E2911AB3A003B0181 /* AppConstants.swift */,
+				A8102D502911AD3A003B0181 /* Observable.swift */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		A8102D542911B1E7003B0181 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A8102D572911B22C003B0181 /* ProductsTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A8B55B4A290A928C00BD4214 = {
+			isa = PBXGroup;
+			children = (
+				A8B55B55290A928C00BD4214 /* RedPandaiOSTask */,
+				A8B55B54290A928C00BD4214 /* Products */,
+				80AC96D410332B1AA05C9BDF /* Pods */,
+				4890FB1C3F07FDFC2A17AE85 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A8B55B54290A928C00BD4214 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8B55B53290A928C00BD4214 /* RedPandaiOSTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8B55B55290A928C00BD4214 /* RedPandaiOSTask */ = {
+			isa = PBXGroup;
+			children = (
+				A8102D472911A950003B0181 /* App Lifecycle */,
+				A8102D3F2911A882003B0181 /* Modules */,
+				A8102D462911A923003B0181 /* FirebaseManager */,
+				A8102D4D2911AB24003B0181 /* Supporting */,
+				A8B55B6A290A932200BD4214 /* GoogleService-Info.plist */,
+				A8B55B6C290A934C00BD4214 /* google-services.json */,
+				A8B55B5F290A928E00BD4214 /* Assets.xcassets */,
+				A8B55B61290A928E00BD4214 /* LaunchScreen.storyboard */,
+				A8B55B64290A928E00BD4214 /* Info.plist */,
+			);
+			path = RedPandaiOSTask;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8B55B52290A928C00BD4214 /* RedPandaiOSTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8B55B67290A928E00BD4214 /* Build configuration list for PBXNativeTarget "RedPandaiOSTask" */;
+			buildPhases = (
+				274E45C3704CE7CE373DA26A /* [CP] Check Pods Manifest.lock */,
+				A8B55B4F290A928C00BD4214 /* Sources */,
+				A8B55B50290A928C00BD4214 /* Frameworks */,
+				A8B55B51290A928C00BD4214 /* Resources */,
+				9065D21EBB911DA2B10896F6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedPandaiOSTask;
+			productName = RedPandaiOSTask;
+			productReference = A8B55B53290A928C00BD4214 /* RedPandaiOSTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8B55B4B290A928C00BD4214 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					A8B55B52290A928C00BD4214 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = A8B55B4E290A928C00BD4214 /* Build configuration list for PBXProject "RedPandaiOSTask" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8B55B4A290A928C00BD4214;
+			productRefGroup = A8B55B54290A928C00BD4214 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8B55B52290A928C00BD4214 /* RedPandaiOSTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8B55B51290A928C00BD4214 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8B55B63290A928E00BD4214 /* LaunchScreen.storyboard in Resources */,
+				A8B55B6B290A932200BD4214 /* GoogleService-Info.plist in Resources */,
+				A8B55B60290A928E00BD4214 /* Assets.xcassets in Resources */,
+				A8B55B5E290A928C00BD4214 /* Main.storyboard in Resources */,
+				A8B55B6D290A934C00BD4214 /* google-services.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		274E45C3704CE7CE373DA26A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RedPandaiOSTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9065D21EBB911DA2B10896F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RedPandaiOSTask/Pods-RedPandaiOSTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RedPandaiOSTask/Pods-RedPandaiOSTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RedPandaiOSTask/Pods-RedPandaiOSTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8B55B4F290A928C00BD4214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8B55B5B290A928C00BD4214 /* ProductsViewController.swift in Sources */,
+				A8102D532911B0F3003B0181 /* ProductsData.swift in Sources */,
+				A8102D4F2911AB3A003B0181 /* AppConstants.swift in Sources */,
+				A8102D582911B22C003B0181 /* ProductsTableViewCell.swift in Sources */,
+				A8B55B57290A928C00BD4214 /* AppDelegate.swift in Sources */,
+				A8102D512911AD3A003B0181 /* Observable.swift in Sources */,
+				A8102D492911A974003B0181 /* FirebaseManager.swift in Sources */,
+				A8102D452911A8C6003B0181 /* ProductsViewModel.swift in Sources */,
+				A8B55B59290A928C00BD4214 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A8B55B5C290A928C00BD4214 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8B55B5D290A928C00BD4214 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8B55B61290A928E00BD4214 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8B55B62290A928E00BD4214 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8B55B65290A928E00BD4214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8B55B66290A928E00BD4214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8B55B68290A928E00BD4214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49B2FC7C327CF99C797F2894 /* Pods-RedPandaiOSTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RedPandaiOSTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RedPandaiOSTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8B55B69290A928E00BD4214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61188520C885287AFA2B6F5B /* Pods-RedPandaiOSTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RedPandaiOSTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RedPandaiOSTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8B55B4E290A928C00BD4214 /* Build configuration list for PBXProject "RedPandaiOSTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8B55B65290A928E00BD4214 /* Debug */,
+				A8B55B66290A928E00BD4214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8B55B67290A928E00BD4214 /* Build configuration list for PBXNativeTarget "RedPandaiOSTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8B55B68290A928E00BD4214 /* Debug */,
+				A8B55B69290A928E00BD4214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8B55B4B290A928C00BD4214 /* Project object */;
+}
