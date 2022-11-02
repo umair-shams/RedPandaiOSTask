@@ -98,6 +98,6 @@ class FirebaseManager {
 
 extension FirebaseManager {
     func toString(_ value: Any?) -> String {
-      return String(describing: value ?? "")
+      return String(describing: value ?? "-")
     }
 }
