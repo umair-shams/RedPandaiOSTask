@@ -20,4 +20,5 @@ If price is not available then just show the hyphen (-) sign
 Features: 
 - Clean Swift code and strcuture
 - MVVM Architecture
+- FirebaseManager and Api Manager
 - Async await Concurrency technique
