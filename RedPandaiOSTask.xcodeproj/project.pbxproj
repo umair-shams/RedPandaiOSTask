@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B78E7332912017A00069CA0 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B78E7322912017900069CA0 /* APIManager.swift */; };
 		A8102D452911A8C6003B0181 /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8102D442911A8C6003B0181 /* ProductsViewModel.swift */; };
 		A8102D492911A974003B0181 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8102D482911A974003B0181 /* FirebaseManager.swift */; };
 		A8102D4F2911AB3A003B0181 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8102D4E2911AB3A003B0181 /* AppConstants.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B78E7322912017900069CA0 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		49B2FC7C327CF99C797F2894 /* Pods-RedPandaiOSTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedPandaiOSTask.debug.xcconfig"; path = "Target Support Files/Pods-RedPandaiOSTask/Pods-RedPandaiOSTask.debug.xcconfig"; sourceTree = "<group>"; };
 		61188520C885287AFA2B6F5B /* Pods-RedPandaiOSTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RedPandaiOSTask.release.xcconfig"; path = "Target Support Files/Pods-RedPandaiOSTask/Pods-RedPandaiOSTask.release.xcconfig"; sourceTree = "<group>"; };
 		A8102D442911A8C6003B0181 /* ProductsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewModel.swift; sourceTree = "<group>"; };
@@ -58,6 +60,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B78E7312912015500069CA0 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				2B78E7322912017900069CA0 /* APIManager.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
 		4890FB1C3F07FDFC2A17AE85 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +184,7 @@
 		A8B55B55290A928C00BD4214 /* RedPandaiOSTask */ = {
 			isa = PBXGroup;
 			children = (
+				2B78E7312912015500069CA0 /* APIManager */,
 				A8102D472911A950003B0181 /* App Lifecycle */,
 				A8102D3F2911A882003B0181 /* Modules */,
 				A8102D462911A923003B0181 /* FirebaseManager */,
@@ -306,6 +317,7 @@
 			files = (
 				A8B55B5B290A928C00BD4214 /* ProductsViewController.swift in Sources */,
 				A8102D532911B0F3003B0181 /* ProductsData.swift in Sources */,
+				2B78E7332912017A00069CA0 /* APIManager.swift in Sources */,
 				A8102D4F2911AB3A003B0181 /* AppConstants.swift in Sources */,
 				A8102D582911B22C003B0181 /* ProductsTableViewCell.swift in Sources */,
 				A8B55B57290A928C00BD4214 /* AppDelegate.swift in Sources */,

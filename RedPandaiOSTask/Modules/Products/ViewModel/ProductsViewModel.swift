@@ -10,6 +10,7 @@ import Foundation
 class ProductsViewModel {
     var isFethcingCompleted: Observable<Bool?> = Observable(nil)
     private let databaseManager: FirebaseManager
+    private let apiManager = APIManager()
     var productsData = ProductsData()
     
     //Constructor injection using depenacny injection concept.
@@ -20,7 +21,7 @@ class ProductsViewModel {
     func fetch() {
         Task {
             do {
-                let productIds = try await databaseManager.fetchProductIds()
+                let productIds = try await apiManager.fetchProductIds()
                 productsData.productIds = productIds
                 print("Products ids fethced completed.\(productIds.count)")
                 
