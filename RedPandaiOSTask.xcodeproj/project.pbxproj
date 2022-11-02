@@ -60,6 +60,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B35B3E42912236600D92576 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A8B55B5F290A928E00BD4214 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2B35B3E52912238600D92576 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A8B55B64290A928E00BD4214 /* Info.plist */,
+				A8B55B61290A928E00BD4214 /* LaunchScreen.storyboard */,
+				A8B55B6C290A934C00BD4214 /* google-services.json */,
+				A8B55B6A290A932200BD4214 /* GoogleService-Info.plist */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		2B78E7312912015500069CA0 /* APIManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,11 +208,8 @@
 				A8102D3F2911A882003B0181 /* Modules */,
 				A8102D462911A923003B0181 /* FirebaseManager */,
 				A8102D4D2911AB24003B0181 /* Supporting */,
-				A8B55B6A290A932200BD4214 /* GoogleService-Info.plist */,
-				A8B55B6C290A934C00BD4214 /* google-services.json */,
-				A8B55B5F290A928E00BD4214 /* Assets.xcassets */,
-				A8B55B61290A928E00BD4214 /* LaunchScreen.storyboard */,
-				A8B55B64290A928E00BD4214 /* Info.plist */,
+				2B35B3E52912238600D92576 /* Utils */,
+				2B35B3E42912236600D92576 /* Resources */,
 			);
 			path = RedPandaiOSTask;
 			sourceTree = "<group>";
