@@ -8,14 +8,14 @@ Data for this product ids is available on firebase realtime database
 
 Product name: 'product-name/${product_id}'
 Product price: 'product-price/${product_id}'
-    
-If price is not available then just show the hyphen (-) sign
-    
+
 Product image: 'product-image/${product_id}'
 Product description: 'product-desc/${product_id}'
+    
+If price is not available then just show the hyphen (-) sign
 
 # Solution:
 Features: 
-- Clean code
+- Clean Swift code and strcuture
 - MVVM Architecture
 - Async await Concurrency technique
