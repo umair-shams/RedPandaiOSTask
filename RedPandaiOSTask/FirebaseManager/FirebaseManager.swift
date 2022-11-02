@@ -70,7 +70,7 @@ class FirebaseManager {
         
         return await withCheckedContinuation { continuation in
             ref.child("\(AppConstants.FirebaseNodes.productPrice)/\(id)").observeSingleEvent(of: .value, with: { snapshot in
-                continuation.resume(returning: self.toString(snapshot.value as? String ?? "-"))
+                continuation.resume(returning: self.toString(snapshot.value))
             })
         }
     }
